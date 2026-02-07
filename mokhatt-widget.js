@@ -12,7 +12,7 @@
     visitorId = (crypto.randomUUID && crypto.randomUUID()) || (Date.now() + "-" + Math.random());
     localStorage.setItem(LS_KEY, visitorId);
   }
-
+mmm
   // ===== Config =====
   const title = cfg.title || "مُخَطّط";
   const pos = (cfg.position || "right").toLowerCase() === "left" ? "left" : "right";
